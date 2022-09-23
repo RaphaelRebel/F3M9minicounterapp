@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #b1b2ff, #d2daff)
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 4rem;
+    flex-wrap: wrap;
+    padding: 4rem;
+}
